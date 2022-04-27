@@ -16,5 +16,10 @@ namespace MyHelloCS31
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello World!! I'm plainphw!!", "마이헬로우", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+        }
     }
 }

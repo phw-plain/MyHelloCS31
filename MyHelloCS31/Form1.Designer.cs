@@ -41,6 +41,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "환영 인사하기";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormMain
             // 
