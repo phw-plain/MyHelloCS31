@@ -28,13 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("휴먼편지체", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.button1.Location = new System.Drawing.Point(36, 27);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(181, 119);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "환영 인사하기";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(258, 176);
+            this.Controls.Add(this.button1);
             this.Name = "FormMain";
             this.Text = "마이헬로우";
             this.ResumeLayout(false);
@@ -42,6 +55,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button button1;
     }
 }
 
